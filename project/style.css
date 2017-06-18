@@ -1,0 +1,370 @@
+/* CSS Document */
+
+.style_h{
+color:#0000FF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:center;
+}
+
+.nav_link{
+    color:#333333; font-size:13px; margin-top:10px;margin-bottom:10px;margin-left:0px;
+	border:1px hidden;
+}
+.mod_block{
+margin-left:10px;
+}
+.nav_t{
+    border-bottom:1px solid #424242;
+    border-top:3px solid #3499C3;
+    border-right:1px solid #424242;
+    background-color:#f6f6f6;
+    background-image:url(img/arrow.jpg);
+    background-position:left;
+    background-repeat:no-repeat;
+    padding-left:10px;
+
+}
+
+.nav_t a{
+    color:#424242;
+}
+.nav_a{
+    border-bottom:1px solid #424242;
+    border-top:3px solid red;
+    border-right:1px solid #424242;
+    background-color:#f6f6f6;
+    background-image:url(img/arrow.jpg);
+    background-position:left;
+    background-repeat:no-repeat;
+    padding-left:10px;
+
+}
+
+.nav_title{
+text-align:left;
+margin-left:12px;
+font-size:14px;
+font-weight:bold;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#330099;
+
+}
+.nav_user{
+text-align:left;
+margin-left:8px;
+font-size:12px;
+font-style:italic;
+font-family:"Times New Roman", Times, serif;
+color:#FF0033;
+}
+
+.loginMess{
+margin-left:12px;
+}
+
+.org_link{
+
+}
+
+#coolmenu{
+border: 1px solid gray; /*Стиль рамки */
+border-bottom-width: 0;
+width: 93%; /*Ширина меню */
+background-color: #f6f6f6;  /*Фоновый цвет ячейки*/
+margin:8px; /*Ширина отступов*/
+}
+
+* html #coolmenu{
+width: 150px;/*Ширина меню для Internet Explorer*/
+}
+
+#coolmenu a{
+font: bold 13px Verdana; /*Шрифт текста*/
+padding: 2px; /*Внутренний отсутп текста ссылки от краев ячейки*/
+padding-left: 4px;/*Внутренний отсутп текста ссылки от левого края ячейки*/
+display: block;
+width: 100%; /*Ширина ячейки*/
+color: #000000;  /*Цвет текста*/
+text-decoration: none; /*Подчеркивание у ссылок - нет*/
+border-bottom: 1px solid gray;
+}
+.main_border{
+
+}
+
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color: #666666;
+}
+
+.header{
+	background-color: #3560A4;
+	background-image: url(img/cloud_header_850.jpg);
+	background-repeat: repeat;
+	height: 139px;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 20px;
+	}
+.header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:36px;
+	color: #660000;
+}
+.header h2 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:26px;
+	color: #660000;
+}
+	
+.footer_note{
+background-color:#dddddd;
+font-size: 10px;
+text-align:center;
+}
+
+.left1{
+	background-color:#99CC99;
+	padding:10px;
+	
+}
+.left{
+	background-color:#CCCCCC;
+	border-right:1px solid #424242;
+}
+.test_inform{
+color:#0000CC;
+}
+
+.test_form{
+margin-left:20px;
+border:dotted;
+border-color:#FFDF55;
+}
+
+.test_td{
+width:100%;
+
+
+}
+.post_view { 
+
+font-size:11px;
+color:#666666;
+}
+
+.mini {
+border: 1px solid #000000;
+margin-right: 10px;
+margin-top:2px;
+
+}
+
+.post_title2 {
+font-size:16px;
+font-weight:bold;
+color:#cc0000;
+text-align:center;
+background-color:#f6f6f6;
+}
+
+.content_lesson{
+	border:1px solid #0099FF;
+	margin:5px;
+	width:300px;
+	float:left;
+	padding: 1px;
+	text-align: left;
+}
+
+.content_publicatios_page{
+	border:1px solid #0099FF;
+	margin:5px;
+	float:none;
+	padding: 1px;
+	text-align: left;
+	
+	
+}
+
+ul.content_list{
+list-style:square;
+font-size:10px;
+line-height:20px;
+}
+.content_title{
+text-align:center;
+font-size:14px;
+color:#CC3300;
+}
+
+.content_lesson_gen{
+border: hidden;
+margin-left:25px;
+margin-right:15px;
+text-indent:2em;
+text-align:justify;
+}
+.content_contorl_quest{
+border: hidden;
+margin-left:25px;
+margin-right:15px;
+text-indent:2em;
+text-align:justify;
+color:#2A00FF;
+}
+
+
+/* for lessons texts start */
+.text_blue_color_italic{
+font-style:italic;
+color:#0000FF;
+}
+
+.text_blue_color_italic_red_border{
+font-style:italic;
+color:#0000FF;
+border:1px solid #FF0000;
+padding:5px;
+}
+
+.text_trava_color_italic_bold{
+font-style:italic;
+font-weight:bold;
+color:#339966;
+}
+.text_blue_color{
+color:#0000FF;
+}
+.text_red_color{
+color:#FF0000;
+}
+
+.text_red_color_italic{
+color:#FF0000;
+font-style:italic;
+}
+.text_brown_color{
+color:#993300;
+}
+.text_trava_color_{
+color:#339966;
+}
+.text_pink_color{
+color:#FF00FF;
+}
+.text_yellow_color{
+color:#FFFF00;
+}
+.text_light_green_color{
+color:#CCFFCC;
+}
+.text_green_color{
+color:#008000;
+}
+.text_green_color_italic_bold{
+color:#008000;
+font:italic bold;
+}
+
+
+
+
+
+
+.text_less_title{
+text-align:center;
+font-weight:bold;
+background-color:#00CC33;
+height:30px;
+line-height:30px;
+}
+.text_less_title_yellow{
+text-align:center;
+font-weight:bold;
+background-color:#FFFF35;
+height:30px;
+line-height:30px;
+}
+.text_less_title_red{
+text-align:center;
+font-weight:bold;
+background-color:#FF0000;
+height:30px;
+line-height:30px;
+}
+.border_green{
+border:1px solid #00FF66;
+padding:5px;
+}
+.border_red{
+border:1px solid #ff0000;;
+padding:5px;
+}
+
+.margin_lesson{
+margin:20px;
+}
+
+.tltle_postanovlemie {
+font-weight: bold
+}
+
+
+
+.odobrena {
+	position: relative;
+	width: 150px;
+	left: 400px;
+}
+
+/*для таблицы 2 модуля 4 урока 1*/
+.cell_light_green{
+background-color:#CCFFCC;
+}
+
+.cell_yellow{
+background-color:#FFFF00;
+}
+
+.cell_green{
+background-color:#00FF00;
+}
+
+.cell_red{
+background-color:#FF0000;
+}
+
+/*для ширины ячеек таблицы 3*/
+.cell_width{
+width:300;
+}
+
+/*для всех таблиц*/
+table.san{
+padding:3;
+text-indent:0;
+}
+
+.punkti{
+font-weight:bold;
+color:#007FFF;
+}
+.str_emm{
+font-weight:bold;
+font-style:italic;
+}
+
+/*Примечания для страниц*/
+.primechanie{
+font-size:10px;
+margin-left:15px;
+text-indent:0px;
+}

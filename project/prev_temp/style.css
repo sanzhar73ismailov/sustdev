@@ -1,0 +1,113 @@
+/* CSS Document */
+
+
+.nav_link{
+    color:#333333; font-size:15px; margin-top:10px;margin-bottom:10px;
+}
+.nav_t{
+    border-bottom:1px solid #424242;
+    border-top:3px solid #3499C3;
+    border-right:1px solid #424242;
+    background-color:#f6f6f6;
+    background-image:url(img/arrow.jpg);
+    background-position:left;
+    background-repeat:no-repeat;
+    padding-left:10px;
+
+}
+
+.nav_t a{
+    color:#424242;
+}
+.nav_a{
+    border-bottom:1px solid #424242;
+    border-top:3px solid red;
+    border-right:1px solid #424242;
+    background-color:#f6f6f6;
+    background-image:url(img/arrow.jpg);
+    background-position:left;
+    background-repeat:no-repeat;
+    padding-left:10px;
+
+}
+
+.nav_title{
+text-align:center
+}
+
+.org_link{
+
+}
+
+#coolmenu{
+border: 1px solid gray; /*Стиль рамки */
+border-bottom-width: 0;
+width: 93%; /*Ширина меню */
+background-color: #f6f6f6;  /*Фоновый цвет ячейки*/
+margin:8px; /*Ширина отступов*/
+}
+
+* html #coolmenu{
+width: 150px;/*Ширина меню для Internet Explorer*/
+}
+
+#coolmenu a{
+font: bold 13px Verdana; /*Шрифт текста*/
+padding: 2px; /*Внутренний отсутп текста ссылки от краев ячейки*/
+padding-left: 4px;/*Внутренний отсутп текста ссылки от левого края ячейки*/
+display: block;
+width: 100%; /*Ширина ячейки*/
+color: #000000;  /*Цвет текста*/
+text-decoration: none; /*Подчеркивание у ссылок - нет*/
+border-bottom: 1px solid gray;
+}
+.main_border{
+
+}
+
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color: #666666;
+}
+
+.header{
+	background-color: #3560A4;
+	background-image: url(img/cloud_header_850.jpg);
+	background-repeat: repeat;
+	height: 139px;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 20px;
+	}
+.header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:36px;
+	color: #660000;
+}
+.header h2 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:26px;
+	color: #660000;
+}
+	
+.footer_note{
+background-color:#dddddd;
+font-size: 10px;
+text-align:center;
+}
+
+.left1{
+	background-color:#99CC99;
+	padding:10px;
+	
+}
+.left{
+	background-color:#CCCCCC;
+	border-right:1px solid #424242;
+}
